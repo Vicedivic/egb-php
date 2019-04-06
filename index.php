@@ -97,7 +97,7 @@ $information = [
 <h3>Participate in our Competition!</h3>
 <h4>You can either win a bag of money or a piece of cake!</h4>
 
-<form id="competition-form" action="competition.php" method="post" netlify>
+<form id="competition-form" action="competition.php" method="post" data-netlify="true">
   <label for="fname">First Name</label>
   <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
